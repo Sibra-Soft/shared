@@ -62,6 +62,7 @@ jobs:
     if: github.event_name == 'release'
     needs: package
     runs-on: windows-latest
+    environment: production
     permissions:
       contents: read
       id-token: write
