@@ -5,6 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<UseWindowsForms>true</UseWindowsForms>
+	<PackageId>SibraSoft.Shared</PackageId>
+	<Authors>Sibra-Soft</Authors>
+	<Description>Shared Windows Forms utilities for Sibra-Soft projects.</Description>
   </PropertyGroup>
 
 </Project>
