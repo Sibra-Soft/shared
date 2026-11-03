@@ -8,6 +8,11 @@
 	<PackageId>SibraSoft.Shared</PackageId>
 	<Authors>Sibra-Soft</Authors>
 	<Description>Shared Windows Forms utilities for Sibra-Soft projects.</Description>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+	<ItemGroup>
+	  <None Update="README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
 
 </Project>
